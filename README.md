@@ -9,7 +9,7 @@ Meu terceiro desafio proposto pelo site Frontend Mentor, para treinar as habilid
 
 ## 🚀 Como acessar
 - Desafio proposto: [Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7)
-- Minha solução: [Página de Receitas](https://brunoclx.github.io/pagina-depoimentos/)
+- Minha solução: [Página de Depoimentos](https://brunoclx.github.io/pagina-depoimentos/)
 
 ## 📦 Tecnologias utilizadas
 - HTML
