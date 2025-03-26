@@ -61,7 +61,7 @@ main{
 }
 
 #conteudo article{
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     height: 100%;
 }
@@ -102,6 +102,12 @@ main{
 
 #box-esquerdo {
     gap: 10px;
+}
+
+#box-esquerdo > :nth-child(odd) article:first-child{
+    background-image: url('bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: top right 100px;
 }
 
 /* Primeira linha (par) → 2fr 1fr */
@@ -153,4 +159,28 @@ main{
 
 .bg-roxo, .bg-cinza, .bg-cinza-escuro{
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        height: 100vh;
+        margin: 20px 0px;
+    }
+
+    #conteudo, #box-esquerdo > :nth-child(odd), #box-esquerdo > :nth-child(even){
+        grid-template-columns: 1fr;
+    }
+
+    #box-direito{
+        margin-bottom: 20px;
+    }
+
+    #box-esquerdo > :nth-child(odd) article:first-child{
+        background-image: url('bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-position: top right 20px;
+    }
 }
